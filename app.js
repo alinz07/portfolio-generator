@@ -15,7 +15,7 @@ inquirer
     .prompt([
         {
             type: 'input',
-            name: 'columbus',
+            name: 'name',
             message: 'What is your name?'
         }
     ])
