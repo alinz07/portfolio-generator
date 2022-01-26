@@ -196,10 +196,9 @@ const pageHTML = generatePage(mockData);
 //     .then(portfolioData => {
 //         const pageHTML = generatePage(portfolioData);
 
-    // fs.writeFile('./index.html', pageHTML, err => {
-    //     if (err) throw err;
-
-    //});
+    fs.writeFile('./index.html', pageHTML, err => {
+        if (err) throw err;
+    });
     //});
 
 
